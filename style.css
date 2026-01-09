@@ -1,0 +1,118 @@
+body {
+  background-color: #1e2139;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  margin: 0;
+}
+
+.todo-container {
+  background-color: #2d2f49;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.todo-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input[type="text"], input[type="date"] {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+}
+
+button.add-btn {
+  background-color: #7f7cff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button.add-btn:hover {
+  background-color: #6868e0;
+}
+
+.filter-delete {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+button.delete-all {
+  background-color: #ff4365;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button.delete-all:hover {
+  background-color: #e03253;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  border-bottom: 1px solid #555;
+}
+
+td {
+  border-bottom: 1px solid #444;
+}
+
+button.delete-btn {
+  background-color: #ff5b5b;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+button.delete-btn:hover {
+  background-color: #e64545;
+}
+
+.status-checkbox {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+.no-tasks {
+  color: #bbb;
+}
+
+.no-tasks-row td {
+  padding: 15px 0;
+}
